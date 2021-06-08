@@ -7,19 +7,20 @@
       <a href="#about-the-project">프로젝트에 대해</a>
       <ul>
         <li><a href="#built-with">프레임워크 & 라이브러리</a></li>
+        <li><a href="#process & usage">개발 과정</a></li>
+        <li><a href="#showing">시연</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#other">그 외</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#license">License</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
       </ul>
     </li>
-    <li><a href="#process & usage">개발 과정</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
