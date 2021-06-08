@@ -1,53 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -66,9 +16,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#process & usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -82,39 +30,35 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+자신의 취향에 맞는 음악들을 선택해서 나만의 플레이 리스트를 만들고 공유하는 앱 입니다.
+스마트폰으로 인해 더이상 음악을 손수 다운받아 들을 필요는 없어졌지만 한 곡 한 곡 소중하게 저장하고 들었던 어린 시절의 감성을 앱으로 다시 살리고자 만들게 된 앱입니다. 그러한 앱의 취지에 맞게 ui 디자인의 틀을 카세트 테이프로 잡았고 손글씨로 디자인하여 아날로그적인 느낌을 더했습니다.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+카세트 테이프를 누르면 유튜브 웹 뷰를 통해 저장하고 싶은 노래를 마음껏 검색해 하나뿐인 나만의 재생 목록을 만들어 저장할 수 있습니다. 또한 저장한 플레이 리스트를 앱의 다른 사용자에게 선물하여 공유할 수 있습니다.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [springboot](https://getbootstrap.com)
+* [mysql](https://www.mysql.com)
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+사용된 외부 dependency
+
+* validation
+  ```java
+  implementation 'org.springframework.boot:spring-boot-starter-validation'
   ```
+* lombok
+  ```java
+  annotationProcessor 'org.projectlombok:lombok'
+  ```
+* modelMapper
+  ```java
+  implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
+  ```
+ 
 
 ### Installation
 
@@ -135,11 +79,17 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## process & usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+task는 일주일 단위로 나눠서 진행했음.
+초기엔 필수 기능 구현 위주로 진행하고 업그레이드하는 방식으로 진행했음 (단순 로그인 -> 인증 토큰 발급 등)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2020/06/07 ~ 
+서버 제작 시작
+-[ ] 로그인 / 회원가입 (account CRUD)
+-[ ] PLAYLIST CRUD
+
+
 
 
 
