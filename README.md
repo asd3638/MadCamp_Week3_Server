@@ -87,8 +87,10 @@ task는 일주일 단위로 나눠서 진행했음.
 
 2020/06/07 ~ 
 서버 제작 시작
--[ ] 로그인 / 회원가입 (account CRUD)
--[ ] PLAYLIST CRUD
+
+
+- [ ] 로그인 / 회원가입 (account CRUD)
+- [ ] PLAYLIST CRUD
 
 
 
